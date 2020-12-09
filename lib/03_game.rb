@@ -17,7 +17,7 @@ class Game
     print "> "
     name_player2 = gets.chomp
     @player2 = Player.new("#{name = name_player2}", "#{symbol = "O"}")
-    puts "Bienvenue dans ce morpion #{name_player1} et #{name_player2}"
+    puts "Bienvenue dans TIC TAC TOE #{name_player1} et #{name_player2}"
     @board = Board.new
  
   end
